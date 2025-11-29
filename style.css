@@ -527,6 +527,7 @@ blockquote strong{
     color:#fff;
 }
 .large{font-size:1.15rem;padding:14px 26px}
+.cta-button + .cta-button{margin-left:16px;margin-top:12px}
 
 /* --- Footer --- */
 .site-footer{
