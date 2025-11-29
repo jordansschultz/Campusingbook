@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campusing | A Secret History and Buildering Guide to UC Berkeley</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Playfair+Display:wght@400;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-stack">
+            <div class="header-top">
+                <div class="header-title-group">
+                    <h1 class="site-title">Campusing</h1>
+                    <p class="site-subtitle">A Secret History and Buildering Guide to UC Berkeley</p>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="main-nav" id="mainNav">
+                <a class="nav-btn" href="#home">Home</a>
+                <a class="nav-btn" href="#what-is-buildering">What is Buildering?</a>
+                <a class="nav-btn" href="#about-book">About the Book</a>
+                <a class="nav-btn" href="#about-author">About the Author</a>
+                <a class="nav-btn" href="#buildering-today">Buildering Today</a>
+                <a class="nav-btn" href="#contact">Contact</a>
+                <a class="nav-cta" href="#buy">Order Book</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-carousel full-hero" aria-roledescription="carousel">
+                <div class="slides" id="heroSlides">
+                    <!-- slides populated by script -->
+                </div>
+                <button class="carousel-btn prev" id="heroPrev" aria-label="Previous slide">‹</button>
+                <button class="carousel-btn next" id="heroNext" aria-label="Next slide">›</button>
+                <div class="carousel-dots" id="heroDots" aria-hidden="false"></div>
+                <div class="hero-overlay left" id="heroOverlay">
+                    <h3>Recontextualize the Urban Environment as a Playground</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="what-is-buildering" class="content-section">
+            <div class="container section-inner">
+                <div class="section-image">
+                    <img src="images/buildering.jpg" alt="People climbing on campus architecture" loading="lazy">
+                </div>
+                <div class="section-copy">
+                    <h2>What is Buildering?</h2>
+                    <p>Buildering is the act of climbing on buildings or urban structures. Many people use the word buildering to include any form of climbing on buildings, regardless of height or style. With such a broad definition, the act can look a lot of different ways. According to Tim Jacobs, author of Buildering Spots International, buildering “...can be short, hard, gymnastics ascents; skyscraper climbs where one slip is fatal; drunken scrambles up scaffolding on the way home from the pub; and everything in between.” Some other names that people use to refer to buildering-like activities include but are not limited to: urban climbing, building climbing, night climbing, street climbing, buildingeering, edificeering, structuring, skywalking, stegophily, and more. Because of the niche and elusive nature of this activity, there are no strict universal definitions for these terms. Often, climbing on buildings is illegal, and thus this practice is done mostly at night.</p>
+                </div>
+            </div>
+
+            <div class="buildering-photos single">
+                <img src="images/IMG_0149.jpeg" alt="Climbers on campus" loading="lazy">
+            </div>
+
+            <div class="section-copy bleed-on-image">
+                <div class="backdrop">
+                    <p>Buildering combines the words buildering and bouldering. Bouldering is a form of rock climbing that takes place relatively low off the ground, involves technical sequences of moves, and is practiced without the use of ropes. The form of buildering emphasized most in this guidebook is identical to the practice of bouldering, except with buildings, not rock faces. The safest way to practice bouldering is with crash pads below the climber and ample people spotting, to protect the climber in case of a fall. In this book, I emphasize climbing shorter climbs, with more interesting and technical movements on the side of buildings, relatively low to the ground, with the use of crash pads and spotters. There are some climbs included in this book that are much taller, but can be protected by slinging strong features or placing climbing gear into solid cracks.</p>
+                </div>
+            </div>
+
+            <div class="buildering-photos single">
+                <img src="images/buildering.jpg" alt="People climbing on campus architecture" loading="lazy">
+            </div>
+        </section>
+
+        <section id="about-book" class="content-section">
+            <div class="container section-inner reverse">
+                <div class="section-image">
+                    <img src="images/cover.jpg" alt="Book cover: Campusing" loading="lazy">
+                </div>
+                <div class="section-copy">
+                    <h2>About the Book</h2>
+                    <p>What if we recontextualized our relationship with our environment and became more curious, tactile, and imaginative? What if we imagined the urban environment as a playground—how would we move differently through it? <strong>Campusing: A Secret History &amp; Buildering Guide to UC Berkeley</strong> attempts to answer these questions with the theory, history, and practice of BUILDERING, the act of climbing on buildings or urban structures. This book details likely the most comprehensive collection of buildering history with a general history as well as a UC Berkeley specific history, through oral interviews, physical archives, and online research.</p>
+
+                    <p>This book also provides around 300+ current routes on UC Berkeley campus, and portrays the current generation of building climbers. I encourage people to practice buildering respectfully and safely, so that we can continue to dance in urban spaces. I hope you can find opportunity and beauty in the ordinary and unassuming.</p>
+
+                    <blockquote>“Quite the project... I’d consider writing a foreword - just a simple essay about what could have been if I’d stayed at Berkeley longer.” — Alex Honnold (Free Solo Guy)</blockquote>
+
+                    <blockquote>“UCB campus is so chill, bro... You have a great setting to be wild. They want you to be wild.” — Timmy O’Neill (Urban Ape)</blockquote>
+
+                    <blockquote>“Oh yea… it was an immersion of a lifestyle, and I’ve lived the climbing lifestyle my whole life… and buildering was a part of that.” — John Sherman (Creator of V Grades)</blockquote>
+
+                    <p><a class="secondary-button" href="https://docs.google.com/forms/d/e/1FAIpQLSevD1NrDQFuRN7mDhK2UVJyFxDmi6YXJaksLKmz88kH3nfdNQ/viewform?usp=dialog" target="_blank" rel="noopener">Buy / Preorder</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-author" class="content-section">
+            <div class="container section-inner">
+                <div class="section-image">
+                    <img src="images/author.jpg" alt="Photograph of the author" loading="lazy">
+                </div>
+                <div class="section-copy">
+                    <h2>About the Author</h2>
+                    <p>Jordan (he/they) grew up in San Diego, California, where an early love for skateboarding and parkour shaped a playful perspective on the urban environment. This foundation naturally evolved into an interest in buildering and other explorations of play.</p>
+
+                    <p>Jordan discovered rock climbing at the end of high school but truly immersed themselves in the practice upon joining UC Berkeley in 2019. Through the Cal Climbing Club, they found a community that deepened their passion for all disciplines of climbing—bouldering, sport, and trad. As a club leader, Jordan helped introduce others to the practice, sharing technical skills and a love for the vertical world. Their favorite style of climbing is long multi-pitch routes, particularly in Yosemite, where they had the opportunity to climb Lurking Fear on El Capitan shortly before graduating with a B.S. in Environmental Engineering Science in May 2024.</p>
+
+                    <p>Beyond climbing, Jordan enjoys surfing, highlining, backpacking, contact improvisation, and musical jamming. Currently working seasonal jobs, they are exploring different paths while seeking meaningful work that aligns with their passions.</p>
+                </div>
+            </div>
+        </section>
+            <section id="buildering-today" class="content-section">
+                <div class="container">
+                    <div class="section-copy">
+                        <h2>Buildering Today</h2>
+                        <p>An overview of the current community, safety innovations, legal context, and how new generations engage with urban climbing.</p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div id="gallery" class="photo-grid">
+                        <!-- Gallery thumbnails populated by script -->
+                    </div>
+                    <div id="lightbox" class="lightbox" aria-hidden="true">
+                        <button class="lightbox-close" id="lightboxClose">✕</button>
+                        <button class="lightbox-prev" id="lightboxPrev">‹</button>
+                        <img id="lightboxImg" src="" alt="" />
+                        <button class="lightbox-next" id="lightboxNext">›</button>
+                    </div>
+                </div>
+            </section>
+
+        <section id="buy" class="content-section">
+            <div class="container section-inner center">
+                <div class="buy-copy">
+                    <h2>Want a copy?</h2>
+                    <p>Campusing is available to buy at <strong>Mosaic Climbing Gym on Telegraph Street in Berkeley, California.</strong> If you are local, please try and buy the book at the gym. If you are not local fill, out this form to purchase a book to be shipped to you!!!</p>
+
+                    <p>Books cost $40-60 sliding scale (price includes shipping cost)
+                    <br>Venmo: <strong>@Jordanschultz</strong>
+                    <br>Zelle: <strong>+1 (858) 775-4373</strong>
+                    <br>Message me if you need alternative form of payment</p>
+
+                    <p>Shipping could take up to 3 weeks.
+                    <br>Email me if you have any questions: <a href="mailto:Jordanscott9@gmail.com">Jordanscott9@gmail.com</a></p>
+
+                    <p><a class="cta-button large" href="https://docs.google.com/forms/d/e/1FAIpQLSevD1NrDQFuRN7mDhK2UVJyFxDmi6YXJaksLKmz88kH3nfdNQ/viewform?usp=dialog" target="_blank" rel="noopener">Buy Campusing</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <h2>Contact</h2>
+                <p><strong>Email:</strong> <a href="mailto:jordanscott9@gmail.com">jordanscott9@gmail.com</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/campusing_book/" target="_blank" rel="noopener">@campusing_book</a></p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2025 Campusing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
